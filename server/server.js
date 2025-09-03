@@ -42,6 +42,12 @@ io.on("connection", (socket) => {
 app.use(express.json({ limit: "4mb" }));
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send(
+    "Welcome to Chat App API 🚀. Use /api/status, /api/auth, /api/messages"
+  );
+});
+
 app.use("/api/status", (req, res) => res.send("Server is live"));
 app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRouter);
