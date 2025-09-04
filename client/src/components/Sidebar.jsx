@@ -19,7 +19,7 @@ function Sidebar() {
 
   const filterUser = input
     ? users.filter((user) =>
-        user.fullName.toLowercase().includes(input.toLowercase())
+        user?.fullName.toLowerCase().includes(input.toLowerCase())
       )
     : users;
   //jab online user change ho to phirse get user call kro

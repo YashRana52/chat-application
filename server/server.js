@@ -44,7 +44,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.send(
-    "Welcome to Chat App API 🚀. Use /api/status, /api/auth, /api/messages"
+    "Welcome to Chat App API . Use /api/status, /api/auth, /api/messages"
   );
 });
 
@@ -52,10 +52,8 @@ app.use("/api/status", (req, res) => res.send("Server is live"));
 app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRouter);
 
-if (process.env.NODE_ENV !== "production") {
-  const port = process.env.PORT || 3000;
-  server.listen(port, () => console.log("server is running on port:", port));
-}
+const port = process.env.PORT || 3000;
+server.listen(port, () => console.log("server is running on port:", port));
 
 // export for vercel
 export default server;
