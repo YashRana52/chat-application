@@ -12,9 +12,9 @@ A full-stack real-time Chat Application where users can send and receive message
 
 ## 📸 Screenshots
 
-| Home / Chat Page                    | Chat Conversation                  |
+| Profile / Profile Page                    | Chat Conversation                  |
 |-----------------------------------|-----------------------------------|
-| ![Home](./screenshots/home.png)   | ![Chat](./Screenshot%202025-09-20%20001724.png)   |
+| ![Profile](./Screenshot%202025-09-20%20001811.png)   | ![Chat](./Screenshot%202025-09-20%20001724.png)   |
 
 ---
 
