@@ -14,7 +14,7 @@ A full-stack real-time Chat Application where users can send and receive message
 
 | Home / Chat Page                    | Chat Conversation                  |
 |-----------------------------------|-----------------------------------|
-| ![Home](./screenshots/home.png)   | ![Chat](./screenshots/chat.png)   |
+| ![Home](./screenshots/home.png)   | ![Chat](./Screenshot%202025-09-20%20001724.png)   |
 
 ---
 
